@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+         <template id="alert_date_field" name="custom_alert_widget assets" inherit_id="web.assets_backend">
+                    <xpath expr="." position="inside">
+                        <script type="text/javascript" src="/custom_alert_widget/static/src/alert_date_field.js"/>
+                    </xpath>
+         </template>
+    </data>
+</odoo>
